@@ -46,9 +46,10 @@ html{
   line-height: 3.2rem;
 }
 button{
-  padding: 2.5rem;
+  padding: 2rem;
   border-radius: 1.6rem;
-  border: 1px solid var(--primary-color);
+  font-size: 1.9rem;
+  border: none;
 }
 a{
   text-decoration: none;
