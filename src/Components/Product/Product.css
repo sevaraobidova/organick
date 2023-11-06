@@ -51,4 +51,14 @@
 .product .container .product-cards .product-card .product-card-text .price p .stars {
   font-size: 1.9rem;
   color: rgb(255, 168, 88);
+}
+
+@media (max-width: 995px) {
+  #product-cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+  }
 }/*# sourceMappingURL=Product.css.map */
