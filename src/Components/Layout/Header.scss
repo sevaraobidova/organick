@@ -4,7 +4,15 @@
 #block{
     display: block;
 }
+.content {
+    margin-top: 6rem; /* Adjust the margin to match the height of the fixed navbar */
+}
 header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
     .navbar{
         display: flex;
         align-items: center;

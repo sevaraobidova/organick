@@ -6,7 +6,7 @@ const Tittle = (props) => {
     <div>
       <div className="heading">
         <h2 className='mini-heading-text'>{props.mini}</h2>
-        <h1 className='main-heading-text'>{props.main}</h1>
+        <h1 className='main-heading-text' style={{color: props.textcolor}}>{props.main}</h1>
       </div>
     </div>
   )
