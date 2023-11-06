@@ -1,1 +1,37 @@
 /*# sourceMappingURL=Category.css.map */
+
+.category{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap:20px;
+}
+
+
+.section8{
+  background: #EFF6F1;
+  width: 100%;
+padding: 100px 0;
+}
+
+.fruit-img{
+  width: 100%;
+}
+
+
+
+@media(max-width:860px){
+  .category{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap:10px;
+    justify-items: center;
+  }
+
+  .fruit-img{
+    width: 60%;
+  }
+  .section8{
+    background: #EFF6F1;
+  padding:20px 0;
+  }
+}
