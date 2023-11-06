@@ -1,12 +1,11 @@
 import './App.css'
-import Category from './Components/Category/Category'
-import EcoFriendly from './Components/EcoFriendly/EcoFriendly'
-import Subscribe from './Components/Subscribe/Subscribe'
+import Header from './Components/Layout/Header'
 
 function App() {
 
   return (
     <>
+    <Header />
     </>
   )
 }
