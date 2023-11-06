@@ -1,1 +1,57 @@
-/*# sourceMappingURL=OfferProducts.css.map */
+.offered-products {
+  background-color: var(--primary-color);
+  padding: 10rem 0;
+}
+.offered-products .container .offer-title {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+.offered-products .container .offer-product-cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5rem;
+  padding-top: 5rem;
+}
+.offered-products .container .offer-product-cards .offer-product-card {
+  padding: 3rem;
+  background-color: var(--third-color);
+  border-radius: 3rem;
+}
+.offered-products .container .offer-product-cards .offer-product-card .category h3 {
+  background-color: var(--primary-color);
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  color: white;
+  font-size: 1.5rem;
+  font-family: var(--ordinary-text-font-family);
+}
+.offered-products .container .offer-product-cards .offer-product-card .product-card-text h2 {
+  font-size: 2.2rem;
+  font-weight: 300;
+  color: var(--primary-color);
+  padding: 1rem 0;
+  border-bottom: 2px solid rgb(224, 224, 224);
+}
+.offered-products .container .offer-product-cards .offer-product-card .product-card-text .price {
+  padding: 2rem 0;
+}
+.offered-products .container .offer-product-cards .offer-product-card .product-card-text .price p {
+  display: flex;
+  justify-content: space-between;
+}
+.offered-products .container .offer-product-cards .offer-product-card .product-card-text .price p del {
+  color: rgb(184, 184, 184);
+}
+.offered-products .container .offer-product-cards .offer-product-card .product-card-text .price p .price-text {
+  font-weight: 700;
+  font-size: 2rem;
+  color: var(--primary-color);
+}
+.offered-products .container .offer-product-cards .offer-product-card .product-card-text .price p .stars {
+  font-size: 1.9rem;
+  color: rgb(255, 168, 88);
+}/*# sourceMappingURL=OfferProducts.css.map */

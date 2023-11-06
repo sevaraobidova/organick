@@ -45,6 +45,8 @@ const Header = () => {
           </div>
         </div>
       </header>
+      <div className="content">
+        </div>
       
     </div>
   )
