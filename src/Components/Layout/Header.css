@@ -1,1 +1,103 @@
-/*# sourceMappingURL=Header.css.map */
+#hidden {
+  display: none;
+}
+
+#block {
+  display: block;
+}
+
+header .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem 0;
+}
+header .navbar .nav-left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15rem;
+}
+header .navbar .nav-left .nav-link {
+  display: flex;
+  gap: 5rem;
+  font-size: 1.9rem;
+}
+header .navbar .nav-left .nav-link li {
+  color: var(--primary-color);
+}
+header .navbar .nav-left .nav-link li:hover {
+  color: var(--secondary-color);
+}
+header .navbar .nav-left .nav-links {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20rem;
+  padding-left: 35%;
+  font-size: 1.9rem;
+  padding-bottom: 5rem;
+  position: absolute;
+  width: 100%;
+  right: 0;
+  background-color: var(--primary-color);
+  opacity: 0.7;
+  display: none;
+}
+header .navbar .nav-left .nav-links li {
+  margin-bottom: 2rem;
+}
+header .navbar .nav-left .nav-links h1 {
+  align-self: end;
+  padding-left: 8rem;
+  position: absolute;
+  bottom: 0;
+  right: 1rem;
+}
+header .navbar .nav-left .nav-links li {
+  color: white;
+}
+header .navbar .nav-left .nav-links li:hover {
+  color: var(--secondary-color);
+}
+header .navbar .nav-right {
+  font-size: 1.7rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+header .navbar .nav-right h1 {
+  display: none;
+}
+header .navbar .nav-right .nav-cart {
+  padding: 1rem;
+  border: 1px solid var(--ordinary-text-color);
+  border-radius: 3.3rem;
+}
+header .navbar .nav-right .nav-cart p {
+  display: flex;
+  gap: 1.9rem;
+}
+header .navbar .nav-right .nav-cart p span {
+  font-size: 2.5rem;
+}
+
+@media (max-width: 960px) {
+  header .navbar .nav-left {
+    gap: 5rem;
+  }
+  header .navbar .nav-left .nav-link {
+    gap: 2rem;
+  }
+}
+@media (max-width: 800px) {
+  header .navbar .nav-left {
+    gap: 1rem;
+  }
+  header .navbar .nav-left .nav-link {
+    gap: 2rem;
+    display: none;
+  }
+  header .navbar .nav-right h1 {
+    display: block;
+  }
+}/*# sourceMappingURL=Header.css.map */
