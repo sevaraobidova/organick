@@ -1,0 +1,89 @@
+footer{
+    border-bottom: 1px solid rgba(213, 213, 213, 1);
+    padding-bottom: 9rem;
+    .footer{
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        padding: 5rem;
+        h2{
+            font-size: 3rem;
+            color: var(--primary-color);
+        }
+        .contact-us{
+            display: flex;
+            flex-direction: column;
+            gap: 3rem;
+            align-items: end;
+            .social{
+                text-align: right;
+            }
+            h4,p{
+                font-size: 1.8rem;
+                color: var(--primary-color);
+            }
+           
+        }
+        .footer-logo{
+            text-align: center;
+            margin:0 7rem ;
+            border-left: 1px solid rgba(213, 213, 213, 1);
+            border-right: 1px solid rgba(213, 213, 213, 1);
+            p{
+                padding: 4rem 9rem;
+            }
+            .social-icons{
+                font-size: 1.9rem;
+                color: var(--primary-color);
+                display: flex;
+                padding-left: 35%;
+                gap: 1rem;
+                h3{
+                    padding: 1.5rem;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 50%;
+                    background-color: rgba(239, 246, 241, 1);
+                }
+            }
+        }
+        .utility{
+           .footer-link{
+            line-height: 7rem;
+           } 
+        }
+    }
+}
+.security{
+    text-align: center;
+    padding: 3rem;
+}
+
+@media(max-width:950px){
+    footer{
+        .footer{
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: start;
+            gap: 3rem;
+            .contact-us{
+                align-items: flex-start;
+                .social{
+                    text-align: left;
+                }
+            }
+            .footer-logo{
+                margin: 0;
+                border: none;
+                text-align: left;
+                p{
+                    padding:5rem 0;
+                }
+                .social-icons{
+                    padding: 0;
+                }
+            }
+        }
+    }
+}
