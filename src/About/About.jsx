@@ -2,7 +2,6 @@ import React from 'react'
 import './About.scss';
 import icon1 from '../../src/assets/img/about1.png';
 import icon2 from '../../src/assets/img/about2.png';
-import { FaArrowRight } from 'react-icons/fa'
 import Tittle from '../Common/Tittle';
 import Button from '../Common/Button';
 
@@ -36,7 +35,7 @@ const About = () => {
               </p>
             </div>
           </div>
-          <Button color='var(--primary-color)' textcolor='white' border='16px' text='Shop Now'><FaArrowRight/></Button> 
+          <Button color='var(--primary-color)' textcolor='white' border='16px' text='Shop Now'></Button> 
 
         </div>
       </div>

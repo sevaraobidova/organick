@@ -3,7 +3,7 @@ import './Discount.scss';
 import Tittle from '../Common/Tittle';
 import background from '../assets/img/discount-background (1).png';
 import background2 from '../assets/img/discount-background (2).png';
-import { color } from 'framer-motion';
+
 
 const Discount = () => {
   return (
