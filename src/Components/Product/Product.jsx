@@ -67,7 +67,7 @@ const Product = () => {
           <div className="product-title">
             <Tittle mini="Organic" main="Our Products" />
           </div>
-          <div className="product-cards">
+          <div id="product-cards" className="product-cards">
             {cards.map((item => (
               <div className="product-card">
                 <div className="category">

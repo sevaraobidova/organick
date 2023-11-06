@@ -1,7 +1,7 @@
 import React from 'react'
-import './About.scss';
-import icon1 from '../../src/assets/img/about1.png';
-import icon2 from '../../src/assets/img/about2.png';
+import './About.css';
+import icon1 from '../../assets/img/about1.png';
+import icon2 from '../../assets/img/about2.png';
 import Tittle from '../Common/Tittle';
 import Button from '../Common/Button';
 

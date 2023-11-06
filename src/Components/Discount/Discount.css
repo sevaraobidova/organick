@@ -1,1 +1,54 @@
-/*# sourceMappingURL=Discount.css.map */
+.discount {
+  padding: 10rem 0;
+}
+.discount .discount-wraper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+.discount .discount-wraper .discount-card1 {
+  width: 50%;
+  height: 378px;
+  background: url("../../assets/img/discount-background (1).png") center center no-repeat;
+  display: flex;
+  align-items: center;
+}
+.discount .discount-wraper .discount-card1 .heading {
+  width: 60%;
+  padding-left: 4rem;
+}
+.discount .discount-wraper .discount-card1 .heading .mini-heading-text {
+  color: white;
+  font-size: 2.25rem;
+}
+.discount .discount-wraper .discount-card1 .heading .main-heading-text {
+  color: white;
+  font-weight: 400;
+  font-size: 2.5rem;
+  line-height: 3.25rem;
+  letter-spacing: 0.0225rem;
+}
+
+.discount-card2 {
+  width: 50%;
+  height: 378px;
+  background-repeat: no-repeat;
+  background: url("../../assets/img/discount-background (2).png") center center no-repeat;
+  display: flex;
+  align-items: center;
+}
+.discount-card2 .heading {
+  width: 60%;
+  padding-left: 4rem;
+}
+.discount-card2 .heading .mini-heading-text {
+  color: var(--secondary-color);
+  font-size: 2.25rem;
+  font-weight: 400;
+}
+.discount-card2 .heading .main-heading-text {
+  font-size: 2.5rem;
+  line-height: 3.25rem;
+  letter-spacing: 0.0225rem;
+}/*# sourceMappingURL=Discount.css.map */

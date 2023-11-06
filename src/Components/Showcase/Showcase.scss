@@ -1,0 +1,41 @@
+.showcase {
+    background: url('')center center no-repeat;
+    background-image: url('../../assets/img/showcase-background.png');
+    height: calc(100vh - 100px);
+    width: 100%;
+    
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    .showcase-wraper{  
+    .showcase-text{
+width: 30%;
+display: flex;
+flex-direction: column;
+gap: 40px;
+    }
+}
+}
+// media queries
+
+@media(max-width:810px){
+    .showcase{
+        .showcase-wraper{
+        .showcase-text{
+            width: 50%;
+        }
+    }
+    }
+}
+@media(max-width:620px){
+    .showcase{
+        background-size: cover;
+        justify-content: center;
+        .showcase-wraper{
+           .showcase-text{
+            width: 90%;
+           }
+        }
+    }
+}

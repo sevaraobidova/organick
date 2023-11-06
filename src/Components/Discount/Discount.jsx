@@ -1,8 +1,8 @@
 import React from 'react'
-import './Discount.scss';
+import './Discount.css';
 import Tittle from '../Common/Tittle';
-import background from '../assets/img/discount-background (1).png';
-import background2 from '../assets/img/discount-background (2).png';
+import background from '../../assets/img/discount-background (1).png';
+import background2 from '../../assets/img/discount-background (2).png';
 
 
 const Discount = () => {

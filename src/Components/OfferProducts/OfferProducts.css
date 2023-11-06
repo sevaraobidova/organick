@@ -54,4 +54,17 @@
 .offered-products .container .offer-product-cards .offer-product-card .product-card-text .price p .stars {
   font-size: 1.9rem;
   color: rgb(255, 168, 88);
+}
+
+@media (max-width: 995px) {
+  .offered-products .container .offer-product-cards {
+    justify-content: center;
+  }
+}
+@media (max-width: 500px) {
+  .offered-products .container .offer-title {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
 }/*# sourceMappingURL=OfferProducts.css.map */
